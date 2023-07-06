@@ -40,7 +40,7 @@ public class FormServlet extends HttpServlet {
 //		doGet(request, response);
 		
 //		リクエストパラメータを取得
-		request.setCharacterEncoding("UTF-8");
+//		request.setCharacterEncoding("UTF-8");
 		String name = request.getParameter("name");
 		String gender = request.getParameter("gender");
 		
